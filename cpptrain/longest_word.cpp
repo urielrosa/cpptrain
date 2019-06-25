@@ -3,34 +3,30 @@
 using namespace std;
 
 int LongestWord(string str) {
-	int count = 0;
-	unsigned int len = str.length();
-	int count_prev = 0;
-	cout << "len = " << len - 1 << endl;
-	string y = "";
-	while (len) {
-		cout << "str[len-1]:" << str[len - 1] << endl;
-		if (str[len - 1] != ' ') {
-			count++;
+	string lstr;
+	size_t len;
+	size_t prevLen = 0;
+	size_t tempLen;
+	size_t pos = 0;
+	size_t prevPos = 0;
 
-		}
-		else {
-			if (count_prev < count) {
-				count_prev = count;
+	len = str.length();
 
+	for (pos; pos <= len; pos++) {
+		if (str[pos] == ' ' || pos == len) {
+			tempLen = pos - prevPos;
+			if (tempLen > prevLen) {
+				lstr.assign(str, prevPos, tempLen);
+				prevLen = tempLen;
 			}
-			for (int i = 0; i < count; i++)
-			{
-				y = str[len - 1];
-				cout << "y = " << y << endl;
-			}
-			count = 0;
+			prevPos = pos + 1;
 		}
-
-		len--;
 	}
 
-	return count_prev;
+	cout << lstr << endl;
+
+	return prevLen;
+
 }
 
 int main() {
@@ -39,7 +35,7 @@ int main() {
 	//cout << LongestWord(gets(stdin));
 	string x;
 	getline(cin, x);
-	cout << x << endl << "Longest word: " << LongestWord(' ' + x) << endl;
+	cout << x << endl << "Longest word: " << LongestWord(x) << endl;
 	cin.get();
 
 	return 0;
