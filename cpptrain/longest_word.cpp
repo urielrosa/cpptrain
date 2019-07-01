@@ -1,6 +1,6 @@
 // Scott_v1.1
 // Commit, sync
-// Commit, push
+// Commit and push
 #include <iostream>
 #include <string>
 using namespace std;
