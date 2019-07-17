@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "longest_word", "longest_word\longest_word.vcxproj", "{1B4B6D64-73F5-42C3-B4C7-A62F78A6FA6C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stock", "stock\stock.vcxproj", "{54365714-0BE9-4E1C-AFF4-3D528F028319}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{1B4B6D64-73F5-42C3-B4C7-A62F78A6FA6C}.Release|x64.Build.0 = Release|x64
 		{1B4B6D64-73F5-42C3-B4C7-A62F78A6FA6C}.Release|x86.ActiveCfg = Release|Win32
 		{1B4B6D64-73F5-42C3-B4C7-A62F78A6FA6C}.Release|x86.Build.0 = Release|Win32
+		{54365714-0BE9-4E1C-AFF4-3D528F028319}.Debug|x64.ActiveCfg = Debug|x64
+		{54365714-0BE9-4E1C-AFF4-3D528F028319}.Debug|x64.Build.0 = Debug|x64
+		{54365714-0BE9-4E1C-AFF4-3D528F028319}.Debug|x86.ActiveCfg = Debug|Win32
+		{54365714-0BE9-4E1C-AFF4-3D528F028319}.Debug|x86.Build.0 = Debug|Win32
+		{54365714-0BE9-4E1C-AFF4-3D528F028319}.Release|x64.ActiveCfg = Release|x64
+		{54365714-0BE9-4E1C-AFF4-3D528F028319}.Release|x64.Build.0 = Release|x64
+		{54365714-0BE9-4E1C-AFF4-3D528F028319}.Release|x86.ActiveCfg = Release|Win32
+		{54365714-0BE9-4E1C-AFF4-3D528F028319}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
