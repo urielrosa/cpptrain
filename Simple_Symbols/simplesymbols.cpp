@@ -23,6 +23,7 @@ int main() {
 
 	// keep this function call here
 	//cout << SimpleSymbols(gets(stdin));
+
 	string x;
 	getline(cin, x);
 	cout << SimpleSymbols(x);
