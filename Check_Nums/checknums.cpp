@@ -7,11 +7,11 @@ string CheckNums(int num1, int num2) {
 	// code goes here
 	if (num2 < num1)
 	{
-		return "False";
+		return "false";
 	}
 	else if (num2 > num1)
 	{
-		return "True";
+		return "true";
 	}
 	return "-1";
 }
