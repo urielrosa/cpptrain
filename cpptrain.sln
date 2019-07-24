@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "First_Letters_Upper_Cases",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Simple_Symbols", "Simple_Symbols\Simple_Symbols.vcxproj", "{B9C7132A-DAED-4D81-9FDA-0580BAC15794}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Check_Nums", "Check_Nums\Check_Nums.vcxproj", "{FD122200-BB8D-471B-B17B-F5FEC19881AC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{B9C7132A-DAED-4D81-9FDA-0580BAC15794}.Release|x64.Build.0 = Release|x64
 		{B9C7132A-DAED-4D81-9FDA-0580BAC15794}.Release|x86.ActiveCfg = Release|Win32
 		{B9C7132A-DAED-4D81-9FDA-0580BAC15794}.Release|x86.Build.0 = Release|Win32
+		{FD122200-BB8D-471B-B17B-F5FEC19881AC}.Debug|x64.ActiveCfg = Debug|x64
+		{FD122200-BB8D-471B-B17B-F5FEC19881AC}.Debug|x64.Build.0 = Debug|x64
+		{FD122200-BB8D-471B-B17B-F5FEC19881AC}.Debug|x86.ActiveCfg = Debug|Win32
+		{FD122200-BB8D-471B-B17B-F5FEC19881AC}.Debug|x86.Build.0 = Debug|Win32
+		{FD122200-BB8D-471B-B17B-F5FEC19881AC}.Release|x64.ActiveCfg = Release|x64
+		{FD122200-BB8D-471B-B17B-F5FEC19881AC}.Release|x64.Build.0 = Release|x64
+		{FD122200-BB8D-471B-B17B-F5FEC19881AC}.Release|x86.ActiveCfg = Release|Win32
+		{FD122200-BB8D-471B-B17B-F5FEC19881AC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
