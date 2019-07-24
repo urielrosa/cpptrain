@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ChangeLetters", "ChangeLett
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleSymbols", "SimpleSymbols\SimpleSymbols.vcxproj", "{0008AC3E-E810-4D65-86C9-EA96CFAEAC9B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Check_Nums", "CheckNums\CheckNums.vcxproj", "{352508E4-6843-48C5-957F-FAE2F4766FFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{0008AC3E-E810-4D65-86C9-EA96CFAEAC9B}.Release|x64.Build.0 = Release|x64
 		{0008AC3E-E810-4D65-86C9-EA96CFAEAC9B}.Release|x86.ActiveCfg = Release|Win32
 		{0008AC3E-E810-4D65-86C9-EA96CFAEAC9B}.Release|x86.Build.0 = Release|Win32
+		{352508E4-6843-48C5-957F-FAE2F4766FFB}.Debug|x64.ActiveCfg = Debug|x64
+		{352508E4-6843-48C5-957F-FAE2F4766FFB}.Debug|x64.Build.0 = Debug|x64
+		{352508E4-6843-48C5-957F-FAE2F4766FFB}.Debug|x86.ActiveCfg = Debug|Win32
+		{352508E4-6843-48C5-957F-FAE2F4766FFB}.Debug|x86.Build.0 = Debug|Win32
+		{352508E4-6843-48C5-957F-FAE2F4766FFB}.Release|x64.ActiveCfg = Release|x64
+		{352508E4-6843-48C5-957F-FAE2F4766FFB}.Release|x64.Build.0 = Release|x64
+		{352508E4-6843-48C5-957F-FAE2F4766FFB}.Release|x86.ActiveCfg = Release|Win32
+		{352508E4-6843-48C5-957F-FAE2F4766FFB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
