@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Check_Nums", "CheckNums\Che
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Time_Convert", "Time_Convert\Time_Convert.vcxproj", "{4DF9C770-F743-4430-8413-24E38134F018}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlphabetSoup", "AlphabetSoup\AlphabetSoup.vcxproj", "{92A16667-A635-469A-9757-9148B8B3308E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{4DF9C770-F743-4430-8413-24E38134F018}.Release|x64.Build.0 = Release|x64
 		{4DF9C770-F743-4430-8413-24E38134F018}.Release|x86.ActiveCfg = Release|Win32
 		{4DF9C770-F743-4430-8413-24E38134F018}.Release|x86.Build.0 = Release|Win32
+		{92A16667-A635-469A-9757-9148B8B3308E}.Debug|x64.ActiveCfg = Debug|x64
+		{92A16667-A635-469A-9757-9148B8B3308E}.Debug|x64.Build.0 = Debug|x64
+		{92A16667-A635-469A-9757-9148B8B3308E}.Debug|x86.ActiveCfg = Debug|Win32
+		{92A16667-A635-469A-9757-9148B8B3308E}.Debug|x86.Build.0 = Debug|Win32
+		{92A16667-A635-469A-9757-9148B8B3308E}.Release|x64.ActiveCfg = Release|x64
+		{92A16667-A635-469A-9757-9148B8B3308E}.Release|x64.Build.0 = Release|x64
+		{92A16667-A635-469A-9757-9148B8B3308E}.Release|x86.ActiveCfg = Release|Win32
+		{92A16667-A635-469A-9757-9148B8B3308E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
